@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - EFCountingLabel (5.1.4)
+  - IQKeyboardManagerSwift (6.1.1)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.1.17)
+  - MXParallaxHeader (1.1.0)
+  - SnapKit (4.0.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire-SwiftyJSON (~> 3.0.0)
+  - EFCountingLabel
+  - IQKeyboardManagerSwift (~> 6.1.1)
+  - Kingfisher (~> 4.10.1)
+  - MJRefresh (~> 3.1.0)
+  - MXParallaxHeader
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (= 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - EFCountingLabel
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - MXParallaxHeader
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  EFCountingLabel: 210620994a2d54759f53034b5bda4642255969c7
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 4980996a6dbe906389ab42216bf0871e4b710552
+
+COCOAPODS: 1.11.3
