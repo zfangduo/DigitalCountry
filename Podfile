@@ -12,4 +12,5 @@ target 'DigitalCountry' do
  pod 'IQKeyboardManagerSwift', '~> 6.1.1'
  pod 'Kingfisher','~>4.10.1'
  pod 'Alamofire-SwiftyJSON', '~> 3.0.0'
+ pod 'RxSwift', '~> 5'
 end
