@@ -34,7 +34,7 @@ class MineInfoVController: BaseVController {
         collectionView.backgroundColor = .clear
         collectionView.contentInsetAdjustmentBehavior = .never          //滚动指示器是都自动调整
         collectionView.alwaysBounceVertical = true
-        collectionView.alwaysBounceHorizontal = true
+        collectionView.alwaysBounceHorizontal = false
         collectionView.delegate = self
         collectionView.dataSource = self
         view.addSubview(collectionView)
