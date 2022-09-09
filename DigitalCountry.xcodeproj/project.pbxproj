@@ -24,6 +24,8 @@
 		A4F4788D28C88A6300D3B5FB /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788C28C88A6300D3B5FB /* UIViewControllerExt.swift */; };
 		A4F4788F28C897C200D3B5FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788E28C897C200D3B5FB /* Constants.swift */; };
 		A4F4789128C8A5C000D3B5FB /* ProfileSlideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789028C8A5C000D3B5FB /* ProfileSlideBarView.swift */; };
+		A4F4789728C9E6E400D3B5FB /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789628C9E6E400D3B5FB /* ProfileCollectionViewCell.swift */; };
+		A4F4789928CAEB7600D3B5FB /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789828CAEB7600D3B5FB /* UIApplicationExt.swift */; };
 		A4FB777828B8AF6F001EDA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FB777728B8AF6F001EDA91 /* AppDelegate.swift */; };
 		A4FB777F28B8AF6F001EDA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB777D28B8AF6F001EDA91 /* Main.storyboard */; };
 		A4FB778128B8AF73001EDA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FB778028B8AF73001EDA91 /* Assets.xcassets */; };
@@ -69,6 +71,8 @@
 		A4F4788C28C88A6300D3B5FB /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		A4F4788E28C897C200D3B5FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4F4789028C8A5C000D3B5FB /* ProfileSlideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSlideBarView.swift; sourceTree = "<group>"; };
+		A4F4789628C9E6E400D3B5FB /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4F4789828CAEB7600D3B5FB /* UIApplicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExt.swift; sourceTree = "<group>"; };
 		A4FB777428B8AF6F001EDA91 /* DigitalCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FB777728B8AF6F001EDA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4FB777E28B8AF6F001EDA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 				A4F476F628C7432C00D3B5FB /* ColorExt.swift */,
 				A4F4788C28C88A6300D3B5FB /* UIViewControllerExt.swift */,
 				A4F4788E28C897C200D3B5FB /* Constants.swift */,
+				A4F4789828CAEB7600D3B5FB /* UIApplicationExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				A4F4788528C882A100D3B5FB /* ProfileHeaderView.swift */,
 				A4F4788A28C8871C00D3B5FB /* ProfileCollectionViewFlowLayout.swift */,
 				A4F4789028C8A5C000D3B5FB /* ProfileSlideBarView.swift */,
+				A4F4789628C9E6E400D3B5FB /* ProfileCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -455,6 +461,8 @@
 				A4F476F728C7432C00D3B5FB /* ColorExt.swift in Sources */,
 				A4F4788D28C88A6300D3B5FB /* UIViewControllerExt.swift in Sources */,
 				A4F476EF28C73F8500D3B5FB /* DiscoveryVController.swift in Sources */,
+				A4F4789928CAEB7600D3B5FB /* UIApplicationExt.swift in Sources */,
+				A4F4789728C9E6E400D3B5FB /* ProfileCollectionViewCell.swift in Sources */,
 				A4F4789128C8A5C000D3B5FB /* ProfileSlideBarView.swift in Sources */,
 				A4B6CD2F28C7225900DD24C7 /* HomePageVController.swift in Sources */,
 				A4A6CB9F28C6F5F2000EC37B /* BaseVController.swift in Sources */,

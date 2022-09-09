@@ -43,7 +43,7 @@ class MineInfoVController: BaseVController {
         }
         collectionView.register(UINib(nibName: "ProfileHeaderView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: PROFILE_HEADER_ID)
         collectionView.register(ProfileSlideBarView.self, forSupplementaryViewOfKind:UICollectionView.elementKindSectionHeader, withReuseIdentifier: SLIDEBAR_ID)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: CELLID)
+        collectionView.register(ProfileCollectionViewCell.self, forCellWithReuseIdentifier: CELLID)
         collectionView.layoutIfNeeded()
         
         //backgroundImageview
@@ -72,7 +72,6 @@ extension MineInfoVController: UICollectionViewDelegate, UICollectionViewDataSou
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CELLID, for: indexPath)
-        cell.backgroundColor = .red
         return cell
     }
     
