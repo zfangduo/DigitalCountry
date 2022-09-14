@@ -18,6 +18,12 @@ let AWEME_COLLECTION_CELL:String = "AwemeCollectionCell"
 
 class DiscoveryVController: BaseVController {
     var collectionView:UICollectionView!
+    var loadMore: LoadMoreControl?
+    
+    let uid:String = "97795069353"
+    var user:User?
+    
+    var workAwemes = [Aweme]()
     
     var pageIndex = 0;
     let pageSize = 21
@@ -63,9 +69,64 @@ class DiscoveryVController: BaseVController {
         collectionView?.register(AwemeCollectionCell.classForCoder(), forCellWithReuseIdentifier: AWEME_COLLECTION_CELL)
         self.view.addSubview(collectionView!)
         
+        loadMore = LoadMoreControl.init(frame: CGRect.init(x: 0, y: USER_INFO_HEADER_HEIGHT + SLIDE_TABBAR_FOOTER_HEIGHT, width: screenWidth, height: 50), surplusCount: 15)
+        loadMore?.startLoading()
+        loadMore?.onLoad = {[weak self] in
+            self?.loadData(page: self?.pageIndex ?? 0)
+        }
+        collectionView?.addSubview(loadMore!)
+    }
+    
+    func loadUserData() {
+//        UserRequest.findUser(uid: uid, success: {[weak self] data in
+//            self?.user = data as? User
+//            self?.setNavigationBarTitle(title: self?.user?.nickname ?? "")
+//            self?.collectionView?.reloadSections(IndexSet.init(integer: 0))
+//        }, failure: { error in
+//            UIWindow.showTips(text: error.localizedDescription)
+//        })
+    }
+    
+    func loadData(page: Int, _ size:Int = 21){
+        if sliderTabIndex == 0 {
+            AwemeListRequest.findPostAwemesPaged(uid: uid, page: page, size, success: {[weak self] data in
+                if let response = data as? AwemeListResponse {
+                    if self?.sliderTabIndex != 0 {
+                        return
+                    }
+                    let array = response.data
+                    self?.pageIndex += 1
+                    
+                    UIView.setAnimationsEnabled(false)
+                    self?.collectionView?.performBatchUpdates({
+                        self?.workAwemes += array
+                        var indexPaths = [IndexPath]()
+                        for row in ((self?.workAwemes.count ?? 0) - array.count)..<(self?.workAwemes.count ?? 0) {
+                            indexPaths.append(IndexPath.init(row: row, section: 1))
+                        }
+                        self?.collectionView?.insertItems(at: indexPaths)
+                    }, completion: { finished in
+                        UIView.setAnimationsEnabled(true)
+                        self?.loadMore?.endLoading()
+                        if response.has_more == 0 {
+                            self?.loadMore?.loadingAll()
+                        }
+                    })
+                }
+            }, failure:{ error in
+                self.loadMore?.loadingFailed()
+            })
+        }
     }
     @objc func onNetworkStatusChange(notification: NSNotification){
-        
+        if !NetworkManager.isNotReachableStatus(status: NetworkManager.networkStatus()) {
+            if user == nil {
+                loadUserData()
+            }
+//            if favoriteAwemes.count == 0 && workAwemes.count == 0 {
+//                loadData(page: pageIndex)
+//            }
+        }
     }
 
 }
@@ -123,6 +184,11 @@ extension DiscoveryVController: OnTabTapActionDelegate {
                 
             } completion: { finished in
                 UIView.setAnimationsEnabled(true)
+                
+                self.loadMore?.reset()
+                self.loadMore?.startLoading()
+                
+                self.loadData(page: self.pageIndex)
             }
 
         }

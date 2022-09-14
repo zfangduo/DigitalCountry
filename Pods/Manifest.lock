@@ -4,6 +4,7 @@ PODS:
     - Alamofire (~> 4.5)
     - SwiftyJSON (~> 4.0.0)
   - EFCountingLabel (5.1.4)
+  - HandyJSON (5.0.2)
   - IQKeyboardManagerSwift (6.1.1)
   - Kingfisher (4.10.1)
   - MJRefresh (3.1.17)
@@ -15,6 +16,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire-SwiftyJSON (~> 3.0.0)
   - EFCountingLabel
+  - HandyJSON (~> 5.0.1)
   - IQKeyboardManagerSwift (~> 6.1.1)
   - Kingfisher (~> 4.10.1)
   - MJRefresh (~> 3.1.0)
@@ -28,6 +30,7 @@ SPEC REPOS:
     - Alamofire
     - Alamofire-SwiftyJSON
     - EFCountingLabel
+    - HandyJSON
     - IQKeyboardManagerSwift
     - Kingfisher
     - MJRefresh
@@ -40,6 +43,7 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
   EFCountingLabel: 210620994a2d54759f53034b5bda4642255969c7
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
@@ -48,6 +52,6 @@ SPEC CHECKSUMS:
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: e467255c00b47fa7ba4d2016a5bad50bc3946f17
+PODFILE CHECKSUM: 2bc78a8c41a6b5bb3eccf14772520920c6e2d424
 
 COCOAPODS: 1.11.3

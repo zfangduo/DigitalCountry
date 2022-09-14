@@ -5,7 +5,7 @@ target 'DigitalCountry' do
  pod 'EFCountingLabel'
  pod 'MXParallaxHeader'
 # pod 'Alamofire', '~> 5.4'
- 
+ pod 'HandyJSON','~> 5.0.1'
  pod 'MJRefresh', '~> 3.1.0'
  pod 'SwiftyJSON', '4.0.0'
  pod 'SnapKit', '~> 4.0.0'
