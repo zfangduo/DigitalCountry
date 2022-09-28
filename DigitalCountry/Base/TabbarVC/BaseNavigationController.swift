@@ -15,7 +15,7 @@ class BaseNavigationController: UINavigationController {
         navigationBar.tintColor = .white
         navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationBar.isTranslucent = false
-        setNavigationBarHidden(true, animated: false)
+//        setNavigationBarHidden(true, animated: false)
         
     }
 

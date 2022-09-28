@@ -10,6 +10,7 @@
 		88F29308736BE2797E553C55 /* Pods_DigitalCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828AC0A7E32E7240AA6D8FA2 /* Pods_DigitalCountry.framework */; };
 		A4397BAE28C6E7B7003818DB /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAC28C6E7B6003818DB /* launchImage@2x.png */; };
 		A4397BAF28C6E7B7003818DB /* launchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAD28C6E7B7003818DB /* launchImage@3x.png */; };
+		A45EB2E428E41A9500039799 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB2E328E41A9500039799 /* TestViewController.swift */; };
 		A49F562428D178310061A743 /* LoadMoreControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562328D178310061A743 /* LoadMoreControl.swift */; };
 		A49F562628D17CE10061A743 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562528D17CE10061A743 /* BaseModel.swift */; };
 		A49F562828D17FA00061A743 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562728D17FA00061A743 /* BaseRequest.swift */; };
@@ -73,6 +74,7 @@
 		828AC0A7E32E7240AA6D8FA2 /* Pods_DigitalCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4397BAC28C6E7B6003818DB /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
 		A4397BAD28C6E7B7003818DB /* launchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@3x.png"; sourceTree = "<group>"; };
+		A45EB2E328E41A9500039799 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		A49F562328D178310061A743 /* LoadMoreControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreControl.swift; sourceTree = "<group>"; };
 		A49F562528D17CE10061A743 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		A49F562728D17FA00061A743 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B6CD2E28C7225900DD24C7 /* HomePageVController.swift */,
+				A45EB2E328E41A9500039799 /* TestViewController.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 				A4F4789128C8A5C000D3B5FB /* ProfileSlideBarView.swift in Sources */,
 				A49F562828D17FA00061A743 /* BaseRequest.swift in Sources */,
 				A4D75C5F28D034CD00B5AC7E /* SlideTabBarFooter.swift in Sources */,
+				A45EB2E428E41A9500039799 /* TestViewController.swift in Sources */,
 				A4B6CD2F28C7225900DD24C7 /* HomePageVController.swift in Sources */,
 				A4A6CB9F28C6F5F2000EC37B /* BaseVController.swift in Sources */,
 				A49F563728D1AB6F0061A743 /* Music.swift in Sources */,

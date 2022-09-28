@@ -7,6 +7,13 @@ class BaseVController: UIViewController,UINavigationControllerDelegate,UIGesture
         super.viewDidLoad()
         self.navigationController?.interactivePopGestureRecognizer?.delegate = self
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+        initNavigationBarTransparent()
+    }
+    func initNavigationBarTransparent() {
+        setStatusBarStyle(style: .default)
+        setLeftBarButton(imageName: "icon_titlebar_whiteback")
+        setBackgroundColor(color: ColorWhite)
+        setNavigationBarBackgroundColor(color: ColorSmoke)
     }
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
@@ -46,12 +53,10 @@ class BaseVController: UIViewController,UINavigationControllerDelegate,UIGesture
     func setNavigationBarShadowImage(image:UIImage) {
         self.navigationController?.navigationBar.shadowImage = image;
     }
-    
     func navagationBarHeight()->CGFloat {
         return self.navigationController?.navigationBar.frame.size.height ?? 0;
     }
     @objc func back(){
         self.navigationController?.popViewController(animated: true)
     }
-
 }

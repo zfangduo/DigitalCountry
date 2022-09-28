@@ -36,8 +36,8 @@ class DiscoveryVController: BaseVController {
         super.viewWillAppear(animated)
         self.setNavgationBarTitleColor(color: ColorClear)
         self.setNavigationBarBackgroundColor(color: ColorClear)
-        self.setStatusBarStyle(style: .lightContent)
-        self.setStatusBarHidden(hidden: false)
+//        self.setStatusBarStyle(style: .lightContent)
+//        self.setStatusBarHidden(hidden: false)
 
         NotificationCenter.default.addObserver(self, selector: #selector(onNetworkStatusChange(notification:)), name: Notification.Name(rawValue: NetworkStatesChangeNotification), object: nil)
         
