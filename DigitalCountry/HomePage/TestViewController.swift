@@ -7,14 +7,20 @@
 
 import UIKit
 
+//enum People { case adult, child, senior }
+enum People {
+    case adult,student,child,senior
+}
 class TestViewController: BaseVController {
 
+    
     var stringArray = ["james","wade","Bob","lucy"]
     var intArray = [1, 2, 3, 4, 5, 6, 3]
     var doubleArray = [1.0, 2.0, 3.0]
     
     var myUsername: String?
     var myPassword: String?
+    var person: People = .adult
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,21 +33,53 @@ class TestViewController: BaseVController {
 //        printElementFromArray(a: stringArray)
 //        printElementFromArray(a: intArray)
 //        printElementFromArray(a: doubleArray)
-        myUsername = "12132123"
-        myPassword = "23231232"
-        userLoginMethod()
+//        myUsername = "12132123"
+//        myPassword = "23231232"
+//        userLoginMethod()
+//        person = "Adult"
+        
+        person = .senior
+        
+        enumTypemethod()
+        
+    }
+    func enumTypemethod(){
+//        switch person {
+//        case "Adult":
+//            print("Pay $7")
+//        case "Student":
+//            print("Pay $5")
+//        case "Child":
+//            print("Pay $3")
+//        case "Senior":
+//            print("Pay $1")
+//        default:
+//            print("You alive, bruh?")
+//        }
+        switch person {
+        case .adult:
+            print("Pay $7")
+        case .student:
+            print("Pay $5")
+        case .child:
+            print("Pay $3")
+        case .senior:
+            print("Pay $1")
+        default:
+            print("You alive, bruh?")
+        }
     }
     func userLoginMethod(){
 //        1. 普通版本代码结构嵌套冗余，进阶版本更加一目了然。
 //        2. 在判断一些前提必要条件的时候，推荐使用guard let。
-        if let username = myUsername,let password = myPassword {
-            print("Welcome, \(username)")
-        }
-        //进阶版
-//        guard let username = myUsername,let password = myPassword else{
-//            return;
+//        if let username = myUsername,let password = myPassword {
+//            print("Welcome, \(username)")
 //        }
-//        print("Welcome, \(username)")
+        //进阶版
+        guard let username = myUsername,let password = myPassword else{
+            return;
+        }
+        print("Welcome, \(username)")
     }
     func loopMethod (){
         // 当我们不需要使用循环中的变量时，我们可以使用For Loop和_来代替While Loop
