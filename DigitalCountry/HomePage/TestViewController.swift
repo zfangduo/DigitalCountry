@@ -40,8 +40,28 @@ class TestViewController: BaseVController {
         
         person = .senior
         
-        enumTypemethod()
+//        enumTypemethod()
+        judgeFilterMethod()
         
+    }
+    func judgeFilterMethod() {
+//        var newEvent = [Int]()
+//        for i in 1...10 {
+//            if i & 1 == 0 {
+//                newEvent.append(i)
+//            }
+//        }
+//        print("偶数是\(newEvent)")
+//        var evens = Array(1...10).filter { $0 % 2 == 0 }
+        
+//       过滤器函数的使用: filter替代上面的For-Loop。这里也推荐大家更多的使用高阶函数。
+        
+        let resultArray = Array(1...12).filter { (item) -> Bool in
+             return item%2 == 0
+        }
+        let result = Array(1...12).filter { return $0 % 2 == 0 }
+        var newevents = Array(1...12).filter { $0 & 1 != 0 }
+        print("偶数是\(newevents)")
     }
     func enumTypemethod(){
 //        switch person {
