@@ -1,0 +1,12 @@
+//
+//  ReleaseConfig.xcconfig
+//  DigitalCountry
+//
+//  Created by 倪尛 on 2022/12/6.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "CommonConfig.xcconfig"
+API_URL = @"http:/$()/www.api.com"
+#include "Pods/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry.release.xcconfig"
