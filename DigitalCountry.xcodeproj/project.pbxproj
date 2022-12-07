@@ -10,6 +10,86 @@
 		88F29308736BE2797E553C55 /* Pods_DigitalCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828AC0A7E32E7240AA6D8FA2 /* Pods_DigitalCountry.framework */; };
 		A4397BAE28C6E7B7003818DB /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAC28C6E7B6003818DB /* launchImage@2x.png */; };
 		A4397BAF28C6E7B7003818DB /* launchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAD28C6E7B7003818DB /* launchImage@3x.png */; };
+		A43F536229403DC700AE0BB9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5C28D0293E00B5AC7E /* NetworkManager.swift */; };
+		A43F536329403DC700AE0BB9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476F028C7400B00D3B5FB /* BaseNavigationController.swift */; };
+		A43F536429403DC700AE0BB9 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476F628C7432C00D3B5FB /* ColorExt.swift */; };
+		A43F536529403DC700AE0BB9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788C28C88A6300D3B5FB /* UIViewControllerExt.swift */; };
+		A43F536629403DC700AE0BB9 /* AwemeListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562F28D1AA380061A743 /* AwemeListResponse.swift */; };
+		A43F536729403DC700AE0BB9 /* DiscoveryVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EE28C73F8500D3B5FB /* DiscoveryVController.swift */; };
+		A43F536829403DC700AE0BB9 /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789828CAEB7600D3B5FB /* UIApplicationExt.swift */; };
+		A43F536929403DC700AE0BB9 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789628C9E6E400D3B5FB /* ProfileCollectionViewCell.swift */; };
+		A43F536A29403DC700AE0BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563428D1AAE10061A743 /* User.swift */; };
+		A43F536B29403DC700AE0BB9 /* Aweme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563228D1AA880061A743 /* Aweme.swift */; };
+		A43F536C29403DC700AE0BB9 /* ProfileSlideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789028C8A5C000D3B5FB /* ProfileSlideBarView.swift */; };
+		A43F536D29403DC700AE0BB9 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562728D17FA00061A743 /* BaseRequest.swift */; };
+		A43F536E29403DC700AE0BB9 /* SlideTabBarFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5E28D034CD00B5AC7E /* SlideTabBarFooter.swift */; };
+		A43F536F29403DC700AE0BB9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB2E328E41A9500039799 /* TestViewController.swift */; };
+		A43F537029403DC700AE0BB9 /* HomePageVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6CD2E28C7225900DD24C7 /* HomePageVController.swift */; };
+		A43F537129403DC700AE0BB9 /* BaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A6CB9E28C6F5F2000EC37B /* BaseVController.swift */; };
+		A43F537229403DC700AE0BB9 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563628D1AB6F0061A743 /* Music.swift */; };
+		A43F537329403DC700AE0BB9 /* ProfileCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788A28C8871C00D3B5FB /* ProfileCollectionViewFlowLayout.swift */; };
+		A43F537429403DC700AE0BB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788E28C897C200D3B5FB /* Constants.swift */; };
+		A43F537529403DC700AE0BB9 /* LoginVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5528D01CE600B5AC7E /* LoginVController.swift */; };
+		A43F537629403DC700AE0BB9 /* MineInfoVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EA28C73F3900D3B5FB /* MineInfoVController.swift */; };
+		A43F537729403DC700AE0BB9 /* AwemeListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562928D17FC50061A743 /* AwemeListRequest.swift */; };
+		A43F537829403DC700AE0BB9 /* AwemeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C6228D0360100B5AC7E /* AwemeCollectionCell.swift */; };
+		A43F537929403DC700AE0BB9 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562D28D1A9FC0061A743 /* BaseResponse.swift */; };
+		A43F537A29403DC700AE0BB9 /* StringEXt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562B28D1A7730061A743 /* StringEXt.swift */; };
+		A43F537B29403DC700AE0BB9 /* GoodsMallVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EC28C73F5E00D3B5FB /* GoodsMallVController.swift */; };
+		A43F537C29403DC700AE0BB9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788528C882A100D3B5FB /* ProfileHeaderView.swift */; };
+		A43F537D29403DC700AE0BB9 /* DCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476E528C73CC500D3B5FB /* DCTabBarController.swift */; };
+		A43F537E29403DC700AE0BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FB777728B8AF6F001EDA91 /* AppDelegate.swift */; };
+		A43F537F29403DC700AE0BB9 /* LoadMoreControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562328D178310061A743 /* LoadMoreControl.swift */; };
+		A43F538029403DC700AE0BB9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563828D1ABAD0061A743 /* Video.swift */; };
+		A43F538129403DC700AE0BB9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562528D17CE10061A743 /* BaseModel.swift */; };
+		A43F538229403DC700AE0BB9 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C6028D034F600B5AC7E /* UserInfoHeader.swift */; };
+		A43F538429403DC700AE0BB9 /* Pods_DigitalCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828AC0A7E32E7240AA6D8FA2 /* Pods_DigitalCountry.framework */; };
+		A43F538629403DC700AE0BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB778228B8AF73001EDA91 /* LaunchScreen.storyboard */; };
+		A43F538729403DC700AE0BB9 /* ProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F4788628C882A100D3B5FB /* ProfileHeaderView.xib */; };
+		A43F538829403DC700AE0BB9 /* launchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAD28C6E7B7003818DB /* launchImage@3x.png */; };
+		A43F538929403DC700AE0BB9 /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAC28C6E7B6003818DB /* launchImage@2x.png */; };
+		A43F538A29403DC700AE0BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FB778028B8AF73001EDA91 /* Assets.xcassets */; };
+		A43F538B29403DC700AE0BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB777D28B8AF6F001EDA91 /* Main.storyboard */; };
+		A43F539529403DD300AE0BB9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5C28D0293E00B5AC7E /* NetworkManager.swift */; };
+		A43F539629403DD300AE0BB9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476F028C7400B00D3B5FB /* BaseNavigationController.swift */; };
+		A43F539729403DD300AE0BB9 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476F628C7432C00D3B5FB /* ColorExt.swift */; };
+		A43F539829403DD300AE0BB9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788C28C88A6300D3B5FB /* UIViewControllerExt.swift */; };
+		A43F539929403DD300AE0BB9 /* AwemeListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562F28D1AA380061A743 /* AwemeListResponse.swift */; };
+		A43F539A29403DD300AE0BB9 /* DiscoveryVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EE28C73F8500D3B5FB /* DiscoveryVController.swift */; };
+		A43F539B29403DD300AE0BB9 /* UIApplicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789828CAEB7600D3B5FB /* UIApplicationExt.swift */; };
+		A43F539C29403DD300AE0BB9 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789628C9E6E400D3B5FB /* ProfileCollectionViewCell.swift */; };
+		A43F539D29403DD300AE0BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563428D1AAE10061A743 /* User.swift */; };
+		A43F539E29403DD300AE0BB9 /* Aweme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563228D1AA880061A743 /* Aweme.swift */; };
+		A43F539F29403DD300AE0BB9 /* ProfileSlideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4789028C8A5C000D3B5FB /* ProfileSlideBarView.swift */; };
+		A43F53A029403DD300AE0BB9 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562728D17FA00061A743 /* BaseRequest.swift */; };
+		A43F53A129403DD300AE0BB9 /* SlideTabBarFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5E28D034CD00B5AC7E /* SlideTabBarFooter.swift */; };
+		A43F53A229403DD300AE0BB9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB2E328E41A9500039799 /* TestViewController.swift */; };
+		A43F53A329403DD300AE0BB9 /* HomePageVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6CD2E28C7225900DD24C7 /* HomePageVController.swift */; };
+		A43F53A429403DD300AE0BB9 /* BaseVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A6CB9E28C6F5F2000EC37B /* BaseVController.swift */; };
+		A43F53A529403DD300AE0BB9 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563628D1AB6F0061A743 /* Music.swift */; };
+		A43F53A629403DD300AE0BB9 /* ProfileCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788A28C8871C00D3B5FB /* ProfileCollectionViewFlowLayout.swift */; };
+		A43F53A729403DD300AE0BB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788E28C897C200D3B5FB /* Constants.swift */; };
+		A43F53A829403DD300AE0BB9 /* LoginVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C5528D01CE600B5AC7E /* LoginVController.swift */; };
+		A43F53A929403DD300AE0BB9 /* MineInfoVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EA28C73F3900D3B5FB /* MineInfoVController.swift */; };
+		A43F53AA29403DD300AE0BB9 /* AwemeListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562928D17FC50061A743 /* AwemeListRequest.swift */; };
+		A43F53AB29403DD300AE0BB9 /* AwemeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C6228D0360100B5AC7E /* AwemeCollectionCell.swift */; };
+		A43F53AC29403DD300AE0BB9 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562D28D1A9FC0061A743 /* BaseResponse.swift */; };
+		A43F53AD29403DD300AE0BB9 /* StringEXt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562B28D1A7730061A743 /* StringEXt.swift */; };
+		A43F53AE29403DD300AE0BB9 /* GoodsMallVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476EC28C73F5E00D3B5FB /* GoodsMallVController.swift */; };
+		A43F53AF29403DD300AE0BB9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F4788528C882A100D3B5FB /* ProfileHeaderView.swift */; };
+		A43F53B029403DD300AE0BB9 /* DCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F476E528C73CC500D3B5FB /* DCTabBarController.swift */; };
+		A43F53B129403DD300AE0BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FB777728B8AF6F001EDA91 /* AppDelegate.swift */; };
+		A43F53B229403DD300AE0BB9 /* LoadMoreControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562328D178310061A743 /* LoadMoreControl.swift */; };
+		A43F53B329403DD300AE0BB9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F563828D1ABAD0061A743 /* Video.swift */; };
+		A43F53B429403DD300AE0BB9 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562528D17CE10061A743 /* BaseModel.swift */; };
+		A43F53B529403DD300AE0BB9 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D75C6028D034F600B5AC7E /* UserInfoHeader.swift */; };
+		A43F53B729403DD300AE0BB9 /* Pods_DigitalCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828AC0A7E32E7240AA6D8FA2 /* Pods_DigitalCountry.framework */; };
+		A43F53B929403DD300AE0BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB778228B8AF73001EDA91 /* LaunchScreen.storyboard */; };
+		A43F53BA29403DD300AE0BB9 /* ProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F4788628C882A100D3B5FB /* ProfileHeaderView.xib */; };
+		A43F53BB29403DD300AE0BB9 /* launchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAD28C6E7B7003818DB /* launchImage@3x.png */; };
+		A43F53BC29403DD300AE0BB9 /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4397BAC28C6E7B6003818DB /* launchImage@2x.png */; };
+		A43F53BD29403DD300AE0BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FB778028B8AF73001EDA91 /* Assets.xcassets */; };
+		A43F53BE29403DD300AE0BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB777D28B8AF6F001EDA91 /* Main.storyboard */; };
 		A45EB2E428E41A9500039799 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB2E328E41A9500039799 /* TestViewController.swift */; };
 		A49F562428D178310061A743 /* LoadMoreControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562328D178310061A743 /* LoadMoreControl.swift */; };
 		A49F562628D17CE10061A743 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F562528D17CE10061A743 /* BaseModel.swift */; };
@@ -77,6 +157,10 @@
 		A43F535C293F494300AE0BB9 /* CommonConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonConfig.xcconfig; sourceTree = "<group>"; };
 		A43F535D293F495000AE0BB9 /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfig.xcconfig; sourceTree = "<group>"; };
 		A43F535E293F496000AE0BB9 /* ReleaseConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseConfig.xcconfig; sourceTree = "<group>"; };
+		A43F539029403DC700AE0BB9 /* DigitalCountry-DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalCountry-DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43F539129403DC700AE0BB9 /* DigitalCountry copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DigitalCountry copy-Info.plist"; path = "/Users/jasonz/Desktop/Projects/DigitalCountry/DigitalCountry copy-Info.plist"; sourceTree = "<absolute>"; };
+		A43F53C329403DD300AE0BB9 /* DigitalCountry-BEAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitalCountry-BEAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43F53C429403DD400AE0BB9 /* DigitalCountry copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DigitalCountry copy2-Info.plist"; path = "/Users/jasonz/Desktop/Projects/DigitalCountry/DigitalCountry copy2-Info.plist"; sourceTree = "<absolute>"; };
 		A45EB2E328E41A9500039799 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		A49F562328D178310061A743 /* LoadMoreControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreControl.swift; sourceTree = "<group>"; };
 		A49F562528D17CE10061A743 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -125,6 +209,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A43F538329403DC700AE0BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F538429403DC700AE0BB9 /* Pods_DigitalCountry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43F53B629403DD300AE0BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F53B729403DD300AE0BB9 /* Pods_DigitalCountry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4FB777128B8AF6F001EDA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +405,8 @@
 				A4FB777528B8AF6F001EDA91 /* Products */,
 				DDA9C9EC8856AB82512DFE70 /* Pods */,
 				ACC2C4A2F303362B3B4B3A04 /* Frameworks */,
+				A43F539129403DC700AE0BB9 /* DigitalCountry copy-Info.plist */,
+				A43F53C429403DD400AE0BB9 /* DigitalCountry copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -314,6 +416,8 @@
 				A4FB777428B8AF6F001EDA91 /* DigitalCountry.app */,
 				A4FB778A28B8AF73001EDA91 /* DigitalCountryTests.xctest */,
 				A4FB779428B8AF73001EDA91 /* DigitalCountryUITests.xctest */,
+				A43F539029403DC700AE0BB9 /* DigitalCountry-DEV.app */,
+				A43F53C329403DD300AE0BB9 /* DigitalCountry-BEAT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -371,6 +475,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A43F535F29403DC700AE0BB9 /* DigitalCountry-DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43F538D29403DC700AE0BB9 /* Build configuration list for PBXNativeTarget "DigitalCountry-DEV" */;
+			buildPhases = (
+				A43F536029403DC700AE0BB9 /* [CP] Check Pods Manifest.lock */,
+				A43F536129403DC700AE0BB9 /* Sources */,
+				A43F538329403DC700AE0BB9 /* Frameworks */,
+				A43F538529403DC700AE0BB9 /* Resources */,
+				A43F538C29403DC700AE0BB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalCountry-DEV";
+			productName = DigitalCountry;
+			productReference = A43F539029403DC700AE0BB9 /* DigitalCountry-DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43F539229403DD300AE0BB9 /* DigitalCountry-BEAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43F53C029403DD300AE0BB9 /* Build configuration list for PBXNativeTarget "DigitalCountry-BEAT" */;
+			buildPhases = (
+				A43F539329403DD300AE0BB9 /* [CP] Check Pods Manifest.lock */,
+				A43F539429403DD300AE0BB9 /* Sources */,
+				A43F53B629403DD300AE0BB9 /* Frameworks */,
+				A43F53B829403DD300AE0BB9 /* Resources */,
+				A43F53BF29403DD300AE0BB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitalCountry-BEAT";
+			productName = DigitalCountry;
+			productReference = A43F53C329403DD300AE0BB9 /* DigitalCountry-BEAT.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A4FB777328B8AF6F001EDA91 /* DigitalCountry */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4FB779E28B8AF73001EDA91 /* Build configuration list for PBXNativeTarget "DigitalCountry" */;
@@ -465,11 +607,39 @@
 				A4FB777328B8AF6F001EDA91 /* DigitalCountry */,
 				A4FB778928B8AF73001EDA91 /* DigitalCountryTests */,
 				A4FB779328B8AF73001EDA91 /* DigitalCountryUITests */,
+				A43F535F29403DC700AE0BB9 /* DigitalCountry-DEV */,
+				A43F539229403DD300AE0BB9 /* DigitalCountry-BEAT */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A43F538529403DC700AE0BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F538629403DC700AE0BB9 /* LaunchScreen.storyboard in Resources */,
+				A43F538729403DC700AE0BB9 /* ProfileHeaderView.xib in Resources */,
+				A43F538829403DC700AE0BB9 /* launchImage@3x.png in Resources */,
+				A43F538929403DC700AE0BB9 /* launchImage@2x.png in Resources */,
+				A43F538A29403DC700AE0BB9 /* Assets.xcassets in Resources */,
+				A43F538B29403DC700AE0BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43F53B829403DD300AE0BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F53B929403DD300AE0BB9 /* LaunchScreen.storyboard in Resources */,
+				A43F53BA29403DD300AE0BB9 /* ProfileHeaderView.xib in Resources */,
+				A43F53BB29403DD300AE0BB9 /* launchImage@3x.png in Resources */,
+				A43F53BC29403DD300AE0BB9 /* launchImage@2x.png in Resources */,
+				A43F53BD29403DD300AE0BB9 /* Assets.xcassets in Resources */,
+				A43F53BE29403DD300AE0BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4FB777228B8AF6F001EDA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -539,9 +709,167 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A43F536029403DC700AE0BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalCountry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43F538C29403DC700AE0BB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43F539329403DD300AE0BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalCountry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43F53BF29403DD300AE0BB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalCountry/Pods-DigitalCountry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A43F536129403DC700AE0BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F536229403DC700AE0BB9 /* NetworkManager.swift in Sources */,
+				A43F536329403DC700AE0BB9 /* BaseNavigationController.swift in Sources */,
+				A43F536429403DC700AE0BB9 /* ColorExt.swift in Sources */,
+				A43F536529403DC700AE0BB9 /* UIViewControllerExt.swift in Sources */,
+				A43F536629403DC700AE0BB9 /* AwemeListResponse.swift in Sources */,
+				A43F536729403DC700AE0BB9 /* DiscoveryVController.swift in Sources */,
+				A43F536829403DC700AE0BB9 /* UIApplicationExt.swift in Sources */,
+				A43F536929403DC700AE0BB9 /* ProfileCollectionViewCell.swift in Sources */,
+				A43F536A29403DC700AE0BB9 /* User.swift in Sources */,
+				A43F536B29403DC700AE0BB9 /* Aweme.swift in Sources */,
+				A43F536C29403DC700AE0BB9 /* ProfileSlideBarView.swift in Sources */,
+				A43F536D29403DC700AE0BB9 /* BaseRequest.swift in Sources */,
+				A43F536E29403DC700AE0BB9 /* SlideTabBarFooter.swift in Sources */,
+				A43F536F29403DC700AE0BB9 /* TestViewController.swift in Sources */,
+				A43F537029403DC700AE0BB9 /* HomePageVController.swift in Sources */,
+				A43F537129403DC700AE0BB9 /* BaseVController.swift in Sources */,
+				A43F537229403DC700AE0BB9 /* Music.swift in Sources */,
+				A43F537329403DC700AE0BB9 /* ProfileCollectionViewFlowLayout.swift in Sources */,
+				A43F537429403DC700AE0BB9 /* Constants.swift in Sources */,
+				A43F537529403DC700AE0BB9 /* LoginVController.swift in Sources */,
+				A43F537629403DC700AE0BB9 /* MineInfoVController.swift in Sources */,
+				A43F537729403DC700AE0BB9 /* AwemeListRequest.swift in Sources */,
+				A43F537829403DC700AE0BB9 /* AwemeCollectionCell.swift in Sources */,
+				A43F537929403DC700AE0BB9 /* BaseResponse.swift in Sources */,
+				A43F537A29403DC700AE0BB9 /* StringEXt.swift in Sources */,
+				A43F537B29403DC700AE0BB9 /* GoodsMallVController.swift in Sources */,
+				A43F537C29403DC700AE0BB9 /* ProfileHeaderView.swift in Sources */,
+				A43F537D29403DC700AE0BB9 /* DCTabBarController.swift in Sources */,
+				A43F537E29403DC700AE0BB9 /* AppDelegate.swift in Sources */,
+				A43F537F29403DC700AE0BB9 /* LoadMoreControl.swift in Sources */,
+				A43F538029403DC700AE0BB9 /* Video.swift in Sources */,
+				A43F538129403DC700AE0BB9 /* BaseModel.swift in Sources */,
+				A43F538229403DC700AE0BB9 /* UserInfoHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43F539429403DD300AE0BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43F539529403DD300AE0BB9 /* NetworkManager.swift in Sources */,
+				A43F539629403DD300AE0BB9 /* BaseNavigationController.swift in Sources */,
+				A43F539729403DD300AE0BB9 /* ColorExt.swift in Sources */,
+				A43F539829403DD300AE0BB9 /* UIViewControllerExt.swift in Sources */,
+				A43F539929403DD300AE0BB9 /* AwemeListResponse.swift in Sources */,
+				A43F539A29403DD300AE0BB9 /* DiscoveryVController.swift in Sources */,
+				A43F539B29403DD300AE0BB9 /* UIApplicationExt.swift in Sources */,
+				A43F539C29403DD300AE0BB9 /* ProfileCollectionViewCell.swift in Sources */,
+				A43F539D29403DD300AE0BB9 /* User.swift in Sources */,
+				A43F539E29403DD300AE0BB9 /* Aweme.swift in Sources */,
+				A43F539F29403DD300AE0BB9 /* ProfileSlideBarView.swift in Sources */,
+				A43F53A029403DD300AE0BB9 /* BaseRequest.swift in Sources */,
+				A43F53A129403DD300AE0BB9 /* SlideTabBarFooter.swift in Sources */,
+				A43F53A229403DD300AE0BB9 /* TestViewController.swift in Sources */,
+				A43F53A329403DD300AE0BB9 /* HomePageVController.swift in Sources */,
+				A43F53A429403DD300AE0BB9 /* BaseVController.swift in Sources */,
+				A43F53A529403DD300AE0BB9 /* Music.swift in Sources */,
+				A43F53A629403DD300AE0BB9 /* ProfileCollectionViewFlowLayout.swift in Sources */,
+				A43F53A729403DD300AE0BB9 /* Constants.swift in Sources */,
+				A43F53A829403DD300AE0BB9 /* LoginVController.swift in Sources */,
+				A43F53A929403DD300AE0BB9 /* MineInfoVController.swift in Sources */,
+				A43F53AA29403DD300AE0BB9 /* AwemeListRequest.swift in Sources */,
+				A43F53AB29403DD300AE0BB9 /* AwemeCollectionCell.swift in Sources */,
+				A43F53AC29403DD300AE0BB9 /* BaseResponse.swift in Sources */,
+				A43F53AD29403DD300AE0BB9 /* StringEXt.swift in Sources */,
+				A43F53AE29403DD300AE0BB9 /* GoodsMallVController.swift in Sources */,
+				A43F53AF29403DD300AE0BB9 /* ProfileHeaderView.swift in Sources */,
+				A43F53B029403DD300AE0BB9 /* DCTabBarController.swift in Sources */,
+				A43F53B129403DD300AE0BB9 /* AppDelegate.swift in Sources */,
+				A43F53B229403DD300AE0BB9 /* LoadMoreControl.swift in Sources */,
+				A43F53B329403DD300AE0BB9 /* Video.swift in Sources */,
+				A43F53B429403DD300AE0BB9 /* BaseModel.swift in Sources */,
+				A43F53B529403DD300AE0BB9 /* UserInfoHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4FB777028B8AF6F001EDA91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,6 +962,146 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A43F538E29403DC700AE0BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43F535D293F495000AE0BB9 /* DebugConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=0",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DigitalCountry copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = digitalcountry.com.DigitalCountry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43F538F29403DC700AE0BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43F535E293F496000AE0BB9 /* ReleaseConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=0",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DigitalCountry copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = digitalcountry.com.DigitalCountry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A43F53C129403DD300AE0BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43F535D293F495000AE0BB9 /* DebugConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=2",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DigitalCountry copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = digitalcountry.com.DigitalCountry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43F53C229403DD300AE0BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43F535E293F496000AE0BB9 /* ReleaseConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=2",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DigitalCountry copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = digitalcountry.com.DigitalCountry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A4FB779C28B8AF73001EDA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -757,6 +1225,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalCountry/Source/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
@@ -787,6 +1260,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66AK26NY3C;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOP_ENV=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalCountry/Source/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "数字经济";
@@ -887,6 +1365,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A43F538D29403DC700AE0BB9 /* Build configuration list for PBXNativeTarget "DigitalCountry-DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43F538E29403DC700AE0BB9 /* Debug */,
+				A43F538F29403DC700AE0BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43F53C029403DD300AE0BB9 /* Build configuration list for PBXNativeTarget "DigitalCountry-BEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43F53C129403DD300AE0BB9 /* Debug */,
+				A43F53C229403DD300AE0BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A4FB776F28B8AF6F001EDA91 /* Build configuration list for PBXProject "DigitalCountry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
