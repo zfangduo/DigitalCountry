@@ -1,6 +1,6 @@
 platform :ios, '11.0'
 inhibit_all_warnings!
-targets = ['DigitalCountry','DigitalCountry-DEV','DigitalCountry-BETA']
+targets = ['DigitalCountry','DigitalCountry-DEV','DigitalCountry-BEAT']
 #循环
 targets.each do |t|
   target t do
