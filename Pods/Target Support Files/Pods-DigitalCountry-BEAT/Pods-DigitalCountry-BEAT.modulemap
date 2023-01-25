@@ -1,0 +1,6 @@
+framework module Pods_DigitalCountry_BEAT {
+  umbrella header "Pods-DigitalCountry-BEAT-umbrella.h"
+
+  export *
+  module * { export * }
+}

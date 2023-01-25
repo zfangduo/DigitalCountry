@@ -1,5 +1,8 @@
 
 import UIKit
+import RxSwift
+import RxCocoa
+
 
 class HomePageVController: BaseVController {
 
@@ -22,9 +25,8 @@ class HomePageVController: BaseVController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let vc = TestViewController()
-        vc.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
     }
 }
 

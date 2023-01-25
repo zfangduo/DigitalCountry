@@ -16,5 +16,6 @@ targets.each do |t|
     pod 'Kingfisher','~>4.10.1'
     pod 'Alamofire-SwiftyJSON', '~> 3.0.0'
     pod 'RxSwift', '~> 5'
+    pod 'RxCocoa', '~> 5.0'
   end
 end

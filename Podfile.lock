@@ -9,6 +9,11 @@ PODS:
   - Kingfisher (4.10.1)
   - MJRefresh (3.1.17)
   - MXParallaxHeader (1.1.0)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
   - RxSwift (5.1.3)
   - SnapKit (4.0.1)
   - SwiftyJSON (4.0.0)
@@ -21,6 +26,7 @@ DEPENDENCIES:
   - Kingfisher (~> 4.10.1)
   - MJRefresh (~> 3.1.0)
   - MXParallaxHeader
+  - RxCocoa (~> 5.0)
   - RxSwift (~> 5)
   - SnapKit (~> 4.0.0)
   - SwiftyJSON (= 4.0.0)
@@ -35,6 +41,8 @@ SPEC REPOS:
     - Kingfisher
     - MJRefresh
     - MXParallaxHeader
+    - RxCocoa
+    - RxRelay
     - RxSwift
     - SnapKit
     - SwiftyJSON
@@ -48,10 +56,12 @@ SPEC CHECKSUMS:
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
   MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
   RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 2bc78a8c41a6b5bb3eccf14772520920c6e2d424
+PODFILE CHECKSUM: ee1af2ff628f77541439a34fa6ad123d415200d6
 
 COCOAPODS: 1.11.3

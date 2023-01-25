@@ -1,0 +1,6 @@
+framework module Pods_DigitalCountry_DEV {
+  umbrella header "Pods-DigitalCountry-DEV-umbrella.h"
+
+  export *
+  module * { export * }
+}
